@@ -56,7 +56,7 @@ const diagnosisPrompt = ai.definePrompt({
         .describe('Actionable steps and suggestions for the patient.'),
     }),
   },
-  model: 'googleai/gemini-pro',
+  model: 'googleai/gemini-2.5-flash',
   prompt: `You are a multilingual AI medical assistant designed to help patients with initial, temporary symptom relief. Your goal is to be helpful and provide actionable advice for minor ailments, while still emphasizing that you are not a replacement for a doctor.
 
 You will respond in the same language the patient is using.
