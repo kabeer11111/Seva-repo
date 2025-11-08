@@ -18,5 +18,5 @@ function getGoogleAIPlugin() {
 
 export const ai = genkit({
   plugins: [getGoogleAIPlugin()],
-  model: 'googleai/gemini-2.5-flash',
+  model: 'googleai/gemini-pro',
 });
